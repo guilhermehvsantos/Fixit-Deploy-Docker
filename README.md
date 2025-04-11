@@ -1,35 +1,38 @@
-# FixIt - Plataforma de Suporte
+# 🛠️ FixIt - Plataforma de Suporte
 
-Este projeto é composto por um backend (Spring Boot + H2) e um frontend (Next.js + TypeScript).
+Este projeto é composto por:
 
-Porém ainda está em desenvolvimento.
+- ✅ **Backend**: Spring Boot com banco de dados em memória H2  
+- 🎨 **Frontend**: Next.js + TypeScript
+
+> 🚧 *Este sistema ainda está em desenvolvimento.*
 
 ---
 
-## 🚀 Como rodar o projeto com Docker
+## 🐋 Como rodar o projeto com Docker
 
 ### ✅ Pré-requisitos
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) 
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) instalado na sua máquina (já vem com o Docker Compose)
 
 ---
 
 ### 📦 Passos para subir o sistema
 
 ```bash
-# 1. Clone o projeto
+# 1️⃣ Clone o repositório
 git clone https://github.com/guilhermehvsantos/Fixit-Deploy-Docker.git
 
-# 2. Acesse a pasta do projeto
+# 2️⃣ Acesse a pasta do projeto
 cd Fixit-Deploy-Docker
 
-# 3. Rode os contêineres
+# 3️⃣ Rode os contêineres com Docker Compose
 docker compose up -d
-```
+````
 
-### Projeto rodando
+### 🚀 Projeto rodando
 
-Para visualizar o frontend basta acessar a porta 3000 http://localhost:3000/
+- 🖥️ Para visualizar o frontend basta acessar a porta 3000 http://localhost:3000/
 
-para conferir e testar as rotas http://localhost:8080/swagger-ui/index.html
+- 🌐 para conferir e testar as rotas http://localhost:8080/swagger-ui/index.html
 
