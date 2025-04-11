@@ -25,3 +25,11 @@ cd Fixit-Deploy-Docker
 
 # 3. Rode os contêineres
 docker compose up -d
+```
+
+### Projeto rodando
+
+Para visualizar o frontend basta acessar a porta 3000 http://localhost:3000/
+
+para conferir e testar as rotas http://localhost:8080/swagger-ui/index.html
+
