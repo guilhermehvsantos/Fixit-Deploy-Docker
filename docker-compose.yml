@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    image: guilhermehvs/fixit_backend
+    container_name: fixit_backend
+    ports:
+      - "8080:8080"
+    networks:
+      - fixit-network
+
+  frontend:
+    image: guilhermehvs/fixit_frontend
+    container_name: fixit_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8080
+    depends_on:
+      - backend
+    networks:
+      - fixit-network
+
+networks:
+  fixit-network:
+    driver: bridge
