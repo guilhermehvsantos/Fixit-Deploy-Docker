@@ -2,6 +2,8 @@
 
 Este projeto é composto por um backend (Spring Boot + H2) e um frontend (Next.js + TypeScript).
 
+Porém ainda está em desenvolvimento.
+
 ---
 
 ## 🚀 Como rodar o projeto com Docker
