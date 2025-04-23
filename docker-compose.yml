@@ -2,16 +2,16 @@ version: '3.8'
 
 services:
   backend:
-    image: guilhermehvs/fixit_backend
-    container_name: fixit_backend
+    image: guilhermehvs/backend_fixit:latest
+    container_name: backend_fixit
     ports:
       - "8080:8080"
     networks:
       - fixit-network
 
   frontend:
-    image: guilhermehvs/fixit_frontend
-    container_name: fixit_frontend
+    image: guilhermehvs/frontend_fixit:latest
+    container_name: frontend_fixit
     ports:
       - "3000:3000"
     environment:
