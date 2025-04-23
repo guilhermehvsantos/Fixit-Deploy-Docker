@@ -13,7 +13,7 @@ Este projeto é composto por:
 
 ### ✅ Pré-requisitos
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop) instalado na sua máquina (já vem com o Docker Compose)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) instalado na sua máquina 
 
 ---
 
